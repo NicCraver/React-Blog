@@ -1,5 +1,5 @@
 import React from 'react'
-import '../public/components/header.css'
+import '../public/style/components/header.css'
 
 import { Row, Col, Menu, Icon } from 'antd'
 
