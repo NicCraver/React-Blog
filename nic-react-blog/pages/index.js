@@ -5,6 +5,7 @@ import '../public/style/pages/index.css'
 import Header from '../components/Header'
 import Author from '../components/Author'
 import Advert from '../components/Advert'
+import Footer from '../components/Footer'
 
 const Home = () => {
   const [mylist, setMylist] = useState([
@@ -70,6 +71,7 @@ const Home = () => {
           <Advert />
         </Col>
       </Row>
+      <Footer />
     </>
   )
 }
