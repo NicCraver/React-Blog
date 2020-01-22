@@ -10,7 +10,7 @@ module.exports = appInfo => {
    * built-in config
    * @type {Egg.EggAppConfig}
    **/
-  const config = exports = {};
+  const config = (exports = {});
 
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1579150712572_5533';
@@ -22,6 +22,18 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
+  config.mongoose = {
+    client: {
+      url: 'mongodb://127.0.0.1/log',
+      options: {},
+    },
+  };
+
+  // config.cluster = {
+  //   listen: {
+  //     port: 9999,
+  //   },
+  // };
 
   return {
     ...config,

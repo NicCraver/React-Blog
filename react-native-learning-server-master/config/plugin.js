@@ -1,8 +1,7 @@
 'use strict';
-
-/** @type Egg.EggPlugin */
 module.exports = {
-  mongoose: {
+  // enable plugins 
+  mongooseDB: {
     enable: true,
     package: 'egg-mongoose',
   },
