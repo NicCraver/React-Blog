@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
   "egg": {
     "declarations": true
   },
   "dependencies": {
     "egg": "^2.15.1",
-    "egg-mongoose": "^3.2.0",
-    "egg-mysql": "^3.0.0",
     "egg-scripts": "^2.11.0"
   },
   "devDependencies": {
